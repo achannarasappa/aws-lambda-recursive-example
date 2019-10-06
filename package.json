@@ -1,0 +1,16 @@
+{
+  "name": "example-recursive-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm ./src.zip && zip -r ./src.zip *",
+    "invoke": "sh ./invoke.sh"
+  },
+  "author": "Ani",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.543.0"
+  }
+}
